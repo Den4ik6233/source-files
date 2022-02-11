@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>КОРЗИНА В МАГАЗИНЕ</h1>
+<div class="cart">
+  <div class="cart-item">
+    <img src="https://picsum.photos/200/300" alt="">
+    <h2>Iphone 5</h2>
+    <div class="price">
+      200$
+    </div>
+    <div class="old-price">
+      250$
+    </div>
+  </div>
+  <div class="cart-item">
+    <img src="https://picsum.photos/200/300" alt="">
+    <h2>Iphone 6</h2>
+    <div class="price">
+      <span>500$</span>
+    </div>
+    <div class="old-price">
+      600$
+    </div>
+  </div>
+  <div class="cart-item">
+    <img src="https://picsum.photos/200/300" alt="">
+    <h2>Iphone X</h2>
+    <div class="price">
+      1200$
+    </div>
+    <div class="old-price">
+      1550$
+    </div>
+  </div>
+</div>
+
+<div class="order">
+  <h2>Сумма ваших покупок равна: <span class="total"></span>$</h2>
+  <h2>Без скидок вы бы потратили: <span class="totalWithoutSale"></span>$</h2>
+</div>
+
+<button type="submit" id="get-btn" onclick="numSum(); numSum2()">Показать сумму</button>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item {
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+}
+
+.cart-item img {
+  max-height: 200px;
+  height: 100%;
+  max-width: 200px;
+  width: 100%;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
